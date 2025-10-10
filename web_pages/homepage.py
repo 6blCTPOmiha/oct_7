@@ -11,12 +11,12 @@ class HomePage:
 
 
     def click_galaxy_s_6(self):
-        galaxy_s6 = self.browser.find_element(By.XPATH, '''//a[text()="Samsung galaxy s6"]''')
+        galaxy_s6 = self.browser.find_element(By.XPATH, '//*[text()="Samsung galaxy s6"]')
         galaxy_s6.click()
 
 
     def click_monitor(self):
-        monitor = self.browser.find_element(By.XPATH, '''//a[text()="Monitors"]''')
+        monitor = self.browser.find_element(By.XPATH, '//a[text()="Monitors"]')
         monitor.click()
 
 
